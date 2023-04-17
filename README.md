@@ -6,8 +6,7 @@ email bomber written in python
 
 
 # how does it work?
-  Step 1
-  
+  # Step 1:
   read the code
   
   
